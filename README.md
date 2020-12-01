@@ -27,3 +27,10 @@ dengan membaca daftar Pekerjaan anda akan tahu apa yang bisa anda lakukan.
 Kita ada proyek lain, yaitu: HTAPHPJS dan VBPHPJS. untuk kode Javascriptnya kita buat sama persis untuk setiap Versi, anda bisa memilih salah satu proyek alternative tersebut.
 Namun jika anda ingin mengambil kesempatan ini untuk menguasai Visual Basic .NET saran saya gunakan konverter code yang sudah tersedia pada Visual Basic .NET.
 Pada fasilitas tool ada menu untuk membuka jendela konversi Anda bisa menulis kode program Visual Basic 6.0 disana dan Visual Basic .NET akan menyisipkan kode versi Visual Basic .net ke aplikasi.
+
+#### Apakah ada contoh atau sketsa Desain Akhir yang diharapkan dari proyek ini... ?
+Untuk contoh desain akhir, kami punya proyek pengembangan Extensions Dreamweaver, yang bisa anda lihat dengan mengikuti tautan berikut:
+http://dreamweaver.senimandigital.com/index.php/dreamweaver_ide/5.0.0/context/databases, 
+http://dreamweaver.senimandigital.com/index.php/dreamweaver_ide/5.0.0/context/bindings/, 
+http://dreamweaver.senimandigital.com/index.php/dreamweaver_ide/5.0.0/context/files/
+yang kami harapkan dari proyek ini adalah tersedia-nya alat Desain Profesional yang fokus menyediakan tool-tool pemrograman tingkat tinggi. dimana semua fitur yang disediakan lebih fokus kepada penyediaan Kode Generator, Kode Editor Berbasis Formulir, manipulasi source berbasis Drag n Drop. dan kita tidak perlu menyediakan fasilitas ecek-ecek seperti konversi strung menjadi hurup besar semua atau huruf kecil semua. biarkan tool lain yang mnyediakan hal tersebut sedang kita hanya fokus kepada tool untuk meningkatkan produktifitas.
