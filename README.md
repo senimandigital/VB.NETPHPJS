@@ -22,3 +22,8 @@ Ada banyak manfaat mempelajari pengembangan VB.NETPHPJS seperti:
 ### Bagaimana Berkonstribusi... ?
 Sangat wajar jika merasa ragu tentang cara berkonstribusi, untuk itu ada fasilitas Project yang bisa diakses melalui Tab diatas, disana ada beberapa Deskripsi Proyek,
 dengan membaca daftar Pekerjaan anda akan tahu apa yang bisa anda lakukan.
+
+### Saya hanya menguasai Visual Basic 6.0 dan Stress Dengan Visual Basic .NET tapi suka Javascript, bagimana saya bisa berkonstribusi... ?
+Kita ada proyek lain, yaitu: HTAPHPJS dan VBPHPJS. untuk kode Javascriptnya kita buat sama persis untuk setiap Versi, anda bisa memilih salah satu proyek alternative tersebut.
+Namun jika anda ingin mengambil kesempatan ini untuk menguasai Visual Basic .NET saran saya gunakan konverter code yang sudah tersedia pada Visual Basic .NET.
+Pada fasilitas tool ada menu untuk membuka jendela konversi Anda bisa menulis kode program Visual Basic 6.0 disana dan Visual Basic .NET akan menyisipkan kode versi Visual Basic .net ke aplikasi.
