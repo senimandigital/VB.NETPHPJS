@@ -34,3 +34,10 @@ http://dreamweaver.senimandigital.com/index.php/dreamweaver_ide/5.0.0/context/da
 http://dreamweaver.senimandigital.com/index.php/dreamweaver_ide/5.0.0/context/bindings/, 
 http://dreamweaver.senimandigital.com/index.php/dreamweaver_ide/5.0.0/context/files/
 yang kami harapkan dari proyek ini adalah tersedia-nya alat Desain Profesional yang fokus menyediakan tool-tool pemrograman tingkat tinggi. dimana semua fitur yang disediakan lebih fokus kepada penyediaan Kode Generator, Kode Editor Berbasis Formulir, manipulasi source berbasis Drag n Drop. dan kita tidak perlu menyediakan fasilitas ecek-ecek seperti konversi strung menjadi hurup besar semua atau huruf kecil semua. biarkan tool lain yang mnyediakan hal tersebut sedang kita hanya fokus kepada tool untuk meningkatkan produktifitas.
+
+#### Bagaimana Dengan Tampilan Aplikasi ini untuk saat ini... ? 
+Untuk saat ini, penampilan dari VB.NETPHPJS adalah seperti ini. 
+<img src="http://gambar.senimandigital.com/screenshoot/desktop/vb.netphpjs.png" width="100%" />
+
+#### Bagaimana Dengan Menu, apakah semua bekerja dengan baik... ?
+Menu tidak bekerja sebagai mana mesti-nya, perlu diketahui bahwa aplikasi ini adalah Template, Menu semisal "New File" seharus-nya berisi fitur untuk menambahkan file dalam kasus ini kita ganti dengan Link menuju tutorial cara menambahkan tab baru. Begitu pula menu lain-nya yang belum bekerja sebagaimana mestinya akan kita ganti dengan link tutorial. Harapan kami, kita bisa bersama-sama memperbaiki menu atau minimal mengganti link ke tutorial yang benar. Dengan demikian orang lain yang punya waktu untuk implementasi tidak harus browsing dulu untuk mencari tutorial yang dibutuhkan.
