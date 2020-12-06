@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Light theme visual tests</title>
+<link rel="stylesheet" href="../../Templates/assets/jstree/dist/themes/default/style.min.css">
+<link rel="stylesheet" href="../../Templates/assets/jstree/dist/themes/default-dark/style.min.css">
+<style>
+.tree {
+	min-height: 200px;
+	padding: 0px; margin: 0px;
+	width: 100%;
+	float: left;
+}
+</style>
+</head>
+<body style="background:white;">
+<div class="tree" id="tree">
+  <ul>
+    <li class="jstree-open">Senimandigital</li>
+    <ul>
+      <li>administrator</li>
+      <li>anggota</li>
+      <li>blog</li>
+      <li>market</li>
+      <li>support</li>
+      <li>Connection</li>
+    
+      <li>Template</li>
+      <li>wiki</li>
+      <li data-jstree='{"icon":"../../Templates/images/icon-file/php.png"}'>index.php</li>
+    </ul>
+  </ul>
+</div>
+<script src="../../Templates/assets/JQuery/1.12.4.js"></script> 
+<script src="../../Templates/assets/jstree/dist/jstree.min.js"></script> 
+<script>
+	$('#empty').jstree();
+	$('#tree, #core').jstree();
+	$('#full').jstree({ plugins : ["checkbox","sort","types","wholerow"], "types" : { "file" : { "icon" : "jstree-file" } } });
+	$('#dark').jstree({ plugins : ["checkbox","sort","types","wholerow"], "core" : { "themes" : { "name" : "default-dark" } }, "types" : { "file" : { "icon" : "jstree-file" } } });
+	</script>
+</body>
+</html>
