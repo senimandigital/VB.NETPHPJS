@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Light theme visual tests</title>
+<link rel="stylesheet" href="./../../../dist/themes/default/style.min.css">
+<link rel="stylesheet" href="./../../../dist/themes/default-dark/style.min.css">
+<style>
+.tree {
+	border: 1px solid black;
+	padding: 10px;
+	width: 300px;
+	margin: 20px;
+	float: left;
+	min-height: 200px;
+}
+</style>
+</head>
+<body style="background:white;">
+<div class="tree" id="empty"></div>
+<div class="tree" id="core">
+  <ul>
+    <li>Senimandigital
+      <ul>
+        <li>administrator</li>
+        <li>anggota</li>
+        <li>Connections</li>
+        <li>Templates</li>
+      </ul>
+    </li>
+  </ul>
+</div>
+<div class="tree" id="tree">
+  <ul>
+    <li>informaction_schema</li>
+    <ul>
+      <li>Table</li>
+      <li>View</li>
+    </ul>
+    <li>senimandigital
+      <ul>
+        <li>Table
+          <ul>
+            <li>anggota</li>
+          </ul>
+        </li>
+        <li>View</li>
+      </ul>
+    </li>
+    <li>phpmyadmin</li>
+    <ul>
+      <li>Table </li>
+      <ul>
+        <li>Node</li>
+      </ul>
+      <li>Node</li>
+      <ul>
+        <li>Node 04</li>
+      </ul>
+      <li>Node 05</li>
+    </ul>
+  </ul>
+</div>
+<div class="tree" id="full">
+  <ul>
+    <li data-jstree='{ "selected" : true, "type" : "file" }'>Magic CSS</li>
+    <li>Magic JS</li>
+    <li>asdf</li>
+  </ul>
+</div>
+<div class="tree" id="dark">
+  <ul>
+    <li data-jstree='{ "selected" : true, "type" : "file"}'>full</li>
+    <li>asdf</li>
+  </ul>
+</div>
+<script src="./../../../../../../Templates/assets/JQuery/1.12.4.js"></script> 
+<script src="./../../../dist/jstree.min.js"></script> 
+<script>
+	$('#empty').jstree();
+	$('#tree, #core').jstree();
+	$('#full').jstree({ plugins : ["checkbox","sort","types","wholerow"], "types" : { "file" : { "icon" : "jstree-file" } } });
+	$('#dark').jstree({ plugins : ["checkbox","sort","types","wholerow"], "core" : { "themes" : { "name" : "default-dark" } }, "types" : { "file" : { "icon" : "jstree-file" } } });
+	</script>
+</body>
+</html>
