@@ -2,11 +2,11 @@
 
 Kita sudah mengenal beberapa Frontend Framework populer yang juga didesain untuk bisa menghasilkan Aplikasi Desktop menggunakan Javascript. 
 Kami juga membuat sesuatu yang serupa namun sedikit berbeda, karena kita menggunakan Tool Bahasa Pemrograman Populer sebagai Backend.
-Perbedaan lain-nya, jika Framework Frontend Populer yang sudah kita kenal saat ini lebih ditujukan untuk Browser Moderen, jika justru fokus menyediakan Javascript Desktop untuk Browser Lawas.
+Perbedaan lain-nya, jika Framework Frontend Populer yang sudah kita kenal saat ini lebih ditujukan untuk Browser Moderen, kita justru fokus menyediakan Javascript Desktop untuk Browser Lawas.
 
 #### Kenapa Browser Lawas... ?
 Karena kita programmer, aplikasi kita harus-nya dapat bekerja disemua Browser baik itu di Stand Alone Browser seperti Chrome, Firefox, Opera ataupun pada App Browser 
-seperti Visual Basic 6.0, Visual Basic.NET bahkan pada .CHM dan .HTA
+seperti Visual Basic 6.0, Visual Basic.NET, Borlan Delphi bahkan pada file .CHM dan .HTA
 
 #### Kenapa Melawan Arus... ?
 Kita tidak benar-benar melawan arus, dalam proyek ini kita tetap menggunakan Framework Frontend yang Populer seperti jQuery sebagai Pondasi, Bootstrap sebagai Design Translator,
